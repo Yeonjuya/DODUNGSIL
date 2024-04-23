@@ -1,0 +1,255 @@
+@charset "utf-8";
+:root{
+    --main-font: 'Domain Iralic';
+    --sub-font:'roboto';
+    --kr-font:'NotoSans';
+}
+
+body{
+    font-family: "Domaine";
+    color: #000;
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+
+#wrap{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    min-width: 300px;
+}
+
+.inner{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main h3{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+#main h3 + p{
+    font-family: var(--kr-font);
+    padding-top: 20px;
+}
+
+/* header */
+#header .inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#header .gnb{
+    font-family: "Haar";
+    display: flex;
+    margin-right: auto;
+    gap: 60px;
+    padding-right: 130px;
+
+}
+
+#header .gnb > li > a{
+    display: block;
+}
+
+#header .util{
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+#header .util .shopping{
+    position: absolute;
+    left: -35px;
+    top: -5px;
+}
+
+/* main_visual*/
+#main_visual .inner{
+    padding: 45px 0 0;
+    position: relative;
+    height: 1028px;
+}
+
+#main_visual h2{
+    font-weight: 400;
+    font-size: 16rem;
+}
+
+#main_visual .tit_1{
+    position: absolute;
+    top: 8.5%; /* 13.2 */
+    left: 8.5%;
+}
+
+#main_visual .tit_2{
+    position: absolute;
+    font-size: 14.5rem;
+    top: 26%;
+    left: 25.3%;
+    z-index: 2;
+}
+
+#main_visual .tit_2 span{
+    font-family: var(--main-font);
+}
+
+#main_visual .tit_2::after{
+    content: 'your';
+    color: #fff;
+    position: absolute;
+    right: -57.5%;
+}
+
+#main_visual .tit_3{
+    font-size: 18rem;
+    font-family: var(--main-font);
+    position: absolute;
+    top: 40%;
+    left: 60.6%;
+    z-index: 2;
+    color: #fff;
+}
+
+#main_visual p{
+    padding-left: 45px;
+    font-family: var(--sub-font);
+    background: url(../images/arrow_icon.png) no-repeat left center;
+    position: absolute;
+    top: 46%;
+    left: 26%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+#main_visual .main_img img{
+    width: 100%;
+    height: 712px;
+}
+
+#main_visual .main_img{
+    position: absolute;
+    top: 13.2%;
+    right: 1%;
+}
+
+#main_visual .main_hover img{
+    width: 550px;
+    height: 350px;
+}
+
+#main_visual .main_hover{
+    position: absolute;
+    top: 19.5%;
+    left: -1.5%;
+}
+
+/* new_prd */
+#new_prd{
+    padding: 150px 0;
+    position: relative;
+}
+
+#new_prd .prd_txt{
+    position: absolute;
+    top: 2.5%;
+}
+
+#new_prd .prd_list{
+    margin-left: 500px;
+}
+
+#new_prd .prd_list dl{
+    font-size: 1.8rem;
+   font-family: var(--sub-font); 
+}
+
+#new_prd .prd_list dl dd{
+    font-weight: 300;
+    padding: 5px 0 10px;
+    color: rgba(0,0,0,0.6);
+    font-size: 1.6rem;
+}
+
+#new_prd .prd_list .price{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#new_prd .prd_img{
+    position: relative;
+}
+
+#new_prd .prd_img img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+
+}
+
+
+#new_prd .prd_img:hover img:nth-child(2){
+    opacity: 0;
+}
+
+#new_prd .prd_img .prd05{
+    width: 350px;
+    height: 300px;
+} 
+
+/* about */
+#about{
+    height: 100%;
+    background: #000;
+    color: #fff;
+    padding: 100px 0 1200px;
+    position: relative;
+}
+
+#about h2{
+    font-weight: 400;
+    font-size: 15.5rem;
+}
+
+#about h2::after{
+    content: 'of';
+    font-family: 'Bethaine';
+    font-size: 9rem;
+    font-weight: 300;
+    position: absolute;
+    top: 11%;
+    left: 51.5%;
+}
+
+#about h2::before{
+    content: "";
+    display: block;
+    width: 700px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 55%;
+    top: 14%;
+}
+
+
+#about h3{
+    font-size: 13rem;
+    font-family: var(--main-font);
+    position: absolute;
+    right: 42%;
+    top: 16.5%;
+}
+
+#about .history_img_01{
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Haar';
+    src: url('../font/HaarlemmerMTStd-Regular.otf') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Domaine';
+  src: url('../font/TestDomaineSansDisplay-Regular.otf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Domain Iralic';
+  src: url('../font/TestDomaineSansDisplay-RegularItalic.otf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/Roboto-Light.ttf') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/Roboto-Regular.ttf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('../font/NotoSansKR-Regular.ttf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Bethaine';
+  src: url('../font/Bethaine.otf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
